@@ -78,12 +78,13 @@ footer {
 
 .title {
     float: left;
+    width: 45%;
 }
 
 .info {
     float: right;
     margin-left: 2em;
-    width: 50%;
+    width: 45%;
 }
 
 @media all and (max-width: 680px) {
@@ -95,6 +96,7 @@ footer {
         width: 100%;
         float: none;
         margin: 0;
+        clear: both;
     }
 }
 
@@ -154,7 +156,7 @@ a:hover {
 }
 
 a:active {
-    color: #000;
+    color: #fdf;
 }
 
 footer p {
@@ -180,4 +182,9 @@ footer .links li {
 
 .clear {
     clear: both;
+}
+
+.ref {
+    font-size: .5em;
+    float: left;
 }
